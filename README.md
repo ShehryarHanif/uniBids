@@ -1,4 +1,4 @@
-# BiddingApp
+# uniBids
 
 ## Business Need
 
@@ -8,7 +8,7 @@ The deployment of the app would lead to an increase in the demand for second-han
 
 ## About
 
-BiddingApp is essentially a bidding web application. The main functionalities are a bidding application between sellers and buyers. Users register and log in to the application to look for items they want to buy or bid items they want to sell.
+uniBids is essentially a bidding web application. The main functionalities are a bidding application between sellers and buyers. Users register and log in to the application to look for items they want to buy or bid items they want to sell.
 
 ## Installation
 
@@ -28,14 +28,14 @@ client user$ cd client && npm install // navigate to client folder install depen
 ### Start the development environment
 
 ```bash
-biddingApp user$ npm run dev // navigate to the root directory and start the development environment
+uniBids user$ npm run dev // navigate to the root directory and start the development environment
 ```
 
 ## Usage
 
 ### Use Cases
 
-Our biddingApp support several use cases:
+The application can support several use cases:
 
 - **Register**: User provides details like name, email, address, and password and submit the form to record their account details into the database
 - **Log In**: User provides their log in information and submit the form to be checked and authenticated for permission to enter the web page
@@ -53,7 +53,7 @@ Our biddingApp support several use cases:
 
 ### Frontend
 
-In **/src/App** is where we implement the frontend using Reacts framework:
+In **/src/App**, the frontend is implemented by using React's framework:
 
 - **APICalls**: One file manages the API for login, so that the website state is different for a logged-in user
 - **Components**: Reusable components can be used for the pages, so that the structure is better
@@ -61,10 +61,10 @@ In **/src/App** is where we implement the frontend using Reacts framework:
 - **Pages** Individual routes on the website correspond to different routes
 
 ## Tools and Technologies used in the project
-The project uses a range of Full-stack technologies. We mention the major tools that we utilized here. We can divide them in 3 subsections below. 
+The project uses a range of full-stack technologies.
 
 ### Frontend (Client-side)
-The Frontend develops the interface for the application. Here we develop the User Interface and Experience of the product using the following tools:
+The Frontend develops the interface for the application. Here,the user interface and experience of the product are developed using the following tools:
 - **React**
 - **JavaScript**
 - **HTML**
@@ -75,7 +75,7 @@ The Frontend develops the interface for the application. Here we develop the Use
 - **React Contexts**
 
 ### Backend (Server-side)
-In the backend, we implement the main logic of the application. This runs the server side of the program and creates the REST API that helps perform CRUD operations and other program logic. It provides an API for the client-side application to interact with.
+In the backend, the main logic of the application is implemented. This runs the server side of the program and creates the REST API that helps perform CRUD operations and other program logic. It provides an API for the client-side application to interact with.
 - **Node.js**
 - **Express.js**
 - **Javascript**
@@ -84,7 +84,7 @@ In the backend, we implement the main logic of the application. This runs the se
 - **Heroku**
 
 ### Database
-Here are the Data Management and Database technologies that allow us to host and manage our data.
+Here are the Data Management and Database technologies that allow us to host and manage the data.
 The database services we use are:
 - **MongoDB**
 - **Mongo Atlas**
