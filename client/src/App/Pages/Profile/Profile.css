@@ -1,0 +1,52 @@
+.profileContainer
+{
+    /* width:100%; */
+    /* background-color: yellow; */
+}
+.profileSection{
+    width:80%;
+    /* background-color: blue; */
+    margin: 30px auto;
+    text-align: center;
+}
+
+.profilePaper{
+    width:50%;
+    text-align:center;
+    font-family: Arial;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.userName
+{
+    margin-bottom: 20px;
+}
+
+.userBought{
+    margin: 20px auto;
+    width:50%;
+    padding: 0;
+}
+.boughtGrid{
+    margin-left: 20px;
+
+}
+
+
+.profileHeading {
+    background-image: linear-gradient(to right, #00699e 0%, #0087ca  51%, #00699e  100%);
+    outline: none;
+     margin: 20px auto;
+     padding: 5px 10px;
+     text-align: center;
+     text-transform: uppercase;
+     font-family:Arial;
+	font-size:1.4rem;
+	font-weight:bold;
+     color: white;            
+     border-radius: 10px;
+     display: inline-block;
+     max-width: 280px;
+     
+   }

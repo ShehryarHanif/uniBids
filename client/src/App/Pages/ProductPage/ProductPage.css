@@ -1,0 +1,28 @@
+.productContainer{
+    width:90%;
+    margin:auto;
+}
+.productSection{
+    width:90%;
+    margin:50px auto;
+}
+
+.productSectionGrid{
+    font-family: Assistant, sans-serif;
+    margin: 0;
+
+}
+
+.productName{
+    font-family: Assistant, sans-serif;
+    margin:0;
+    margin-top: 155px;
+}
+
+.productSeller{
+    margin: 50px;
+}
+
+.sellerLink{
+    color:#0b4878;
+}

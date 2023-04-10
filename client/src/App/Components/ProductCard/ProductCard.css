@@ -1,0 +1,65 @@
+
+    
+
+.cardPrice
+{
+    background-color: #0087ca;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 13px;
+    margin: -50px auto 0 auto;
+    position: relative;
+    font-family: Arial;
+	  font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    min-width: 40px;
+    max-width: 70px;
+}
+
+.cardHeading
+{
+    font-family: Assistant, sans-serif;
+    margin:0;
+    margin-top: 5px;
+
+}
+
+.cardContent
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /* color: #0087ca; */
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.card:hover
+{
+  transform: scale(1.1);
+
+}

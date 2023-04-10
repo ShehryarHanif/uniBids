@@ -1,0 +1,100 @@
+.platformContianer{
+    width:100%;
+}
+
+.centerContainer{
+    width:65%;
+    margin: auto;
+    text-align:center;
+}
+.searchResults
+{
+    font-size: 20px;
+      margin: 10px;
+      font-family:Arial;
+	font-weight:bold;
+    background-color: #5c636a;
+    color:white;
+    border-radius: 20px;
+    max-width: 50%;
+    margin: 30px auto 0;
+    text-align: left;
+    padding: 5px 15px;
+}
+.searchSection{
+    position: relative;
+    background: linear-gradient(to right, rgba(54, 63, 78, 0.5), rgba(172, 224, 249, 0.5), rgba(194, 233, 251, 0.5), rgba(218, 226, 239, 0.7));
+    height: 40px;
+    padding: 5px 0; 
+
+}
+.searchContainer{
+    border-radius: 30px;
+    background: white;
+    width: 50%;
+    margin: auto;
+
+}
+.searchbar {
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .searchButton{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    color: white;
+    border-radius: 20px;
+    padding: 0 15px;
+  }
+  
+  .searchButton .searchIcon{
+      margin-left:0;
+  }
+
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    /* background-color: white; */
+  }
+  
+  .searchInput {
+    border: none;
+    margin-top: -300px;
+    width: 80%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+
+.productsGrid
+{
+    margin: 50px auto;
+    padding-left: 25px;
+    text-align:center;
+}
+
+.fiters
+{
+
+}
+.dropdown{
+    font-size: 16px;
+      margin: 5px 5px 0;
+      font-family:Arial;
+	font-weight:bold;
+    display:inline-flex;
+}
+
+.cardButton{
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        outline: inherit;
+}

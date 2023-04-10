@@ -1,0 +1,13 @@
+.placeholderMessage{
+    font-family:Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,21 @@
+.stateChanger{
+    font-family:Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    background: black;
+    background: linear-gradient(to bottom,  rgba(163,255,206,1) 0%,rgba(100,209,128,1) 4%,rgba(64,199,107,1) 100%);    color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    margin: 10px 0;
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.stateChanger:hover{
+    cursor: pointer;
+    color:white;
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(119,206,141,1) 4%,rgba(92,201,125,1) 100%);
+}

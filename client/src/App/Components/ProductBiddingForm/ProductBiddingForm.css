@@ -1,0 +1,29 @@
+
+
+.bidInput {
+    border-radius: 30px;
+    background-color: #d5ecf7;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .bidButton{
+    font-family:Arial;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #0b4878;
+    color: white;
+    padding: 2px 10px;
+    margin: 10px 0;
+    width: auto;
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+  }
+
+  .bidButton:hover{
+    cursor: pointer;
+    color:white;
+}

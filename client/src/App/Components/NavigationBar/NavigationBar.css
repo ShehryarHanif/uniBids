@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@700&display=swap');
+
+
+.header {
+    background-color: #4300F7;
+    font-family: "Roboto", sans-serif;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+
+
+.header img{
+    margin-right: 20px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.header a:hover, header a:active, .header a.active {
+    color: #FF6E00 !important;
+}
+
+.header .logo{
+    font-family: 'Poppins', sans-serif;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #667eea;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(54, 63, 78, 0.5), rgba(94, 231, 223, 0.5), rgba(180, 144, 202, 0.5), rgba(202, 214, 236, 0.7), rgba(54, 63, 78, 0.5)); */
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(54, 63, 78, 0.5), rgba(172, 224, 249, 0.5), rgba(194, 233, 251, 0.5), rgba(218, 226, 239, 0.7));
+  }
+
+
+  .topbarCenter {
+    flex: 3;
+  }
+  
+  /* .searchbar {
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 80%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  } */
+
+  .navProfile
+  {
+      font-size: 15px;
+      margin: 10px;
+      font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+
+  }
+  .profileImg
+  {
+    font-size: 40px !important;
+    display: inline;
+    
+  }
+
+
+
+
+
+
+  .sellItemBtn {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    outline: none;
+     margin: 10px;
+
+     padding: 15px;
+     text-align: center;
+     text-transform: uppercase;
+     font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+     /* transition: 0.5s; */
+     background-size: 200% auto;
+     color: white;            
+     /* box-shadow: 0 0 20px #eee; */
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     /* background-position: right center; change the direction of the change here */
+     background-image: #FF6E00;
+
+     color: #fff;
+     text-decoration: none;
+   }
+  

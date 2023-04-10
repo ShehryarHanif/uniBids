@@ -1,0 +1,116 @@
+
+.createProduct {
+    /* width: 100%;
+    height: 100vh; */
+    background-color: #f0f2f5;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-family: sans-serif;
+
+  }
+  
+  .createProductWrapper {
+    width: 70%;
+    /* height: 3%; */
+    display: block;
+    margin: auto;
+  }
+  
+  .createProductTop {
+    margin: auto;
+    text-align: center;
+    /* flex: 1;
+    display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+  }
+  
+  .createProductLogo {
+    font-size: 40px;
+    font-weight: 800;
+    color: #1775ee;
+    padding-top: 20px;
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .createProductDesc {
+    font-size: 20px;
+    display: block;
+
+  }
+
+  .createProductBottom{
+    margin: 0 auto;
+    text-align: center;
+      color: #1a1a1a;
+  }
+  .createBox{
+    font-family: sans-serif;
+    color: #1a1a1a;
+    margin:20px auto;
+      /* height: 150px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px; */
+      /* display: flex;
+      flex-direction: column; */
+      justify-content: space-between;
+  }
+  
+  .productInput{
+      height: 40px;
+      border-radius: 10px;
+      font-size: 18px;
+      padding-left: 20px;
+      outline: none;
+      border: none;
+      margin: 10px;
+      display: inline-block;
+      width: 350px;
+
+  }
+
+  .textareaCreate {
+    height: 5rem;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    width: 350px;
+
+  
+}
+  
+  .loginInput:focus{
+      outline: none;
+  }
+  
+  .createButton{
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #1775ee;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      width: 150px;
+      /* margin: auto; */
+        }
+  
+  .createButton:focus{
+    outline: none;
+  }
+  
+  .createButton:disabled{
+    cursor: not-allowed;
+  }
+  
+
+
